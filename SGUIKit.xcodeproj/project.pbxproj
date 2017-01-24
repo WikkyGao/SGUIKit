@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2F6D1C1E24A9270015CCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D1B1E24A9270015CCFE /* main.m */; };
+		BB2F6D1F1E24A9270015CCFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D1E1E24A9270015CCFE /* AppDelegate.m */; };
+		BB2F6D251E24A9270015CCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6D231E24A9270015CCFE /* Main.storyboard */; };
+		BB2F6D281E24A9270015CCFE /* SGUIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D261E24A9270015CCFE /* SGUIKit.xcdatamodeld */; };
+		BB2F6D2D1E24A9270015CCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6D2B1E24A9270015CCFE /* LaunchScreen.storyboard */; };
+		BB2F6D381E24A9270015CCFE /* SGUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D371E24A9270015CCFE /* SGUIKitTests.m */; };
+		BB2F6D431E24A9270015CCFE /* SGUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D421E24A9270015CCFE /* SGUIKitUITests.m */; };
+		BB2F6D5D1E24B5320015CCFE /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D5C1E24B5320015CCFE /* UIColor+Hex.m */; };
+		BB2F6D641E24BE240015CCFE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D631E24BE240015CCFE /* BaseViewController.m */; };
+		BB2F6D6B1E24C06C0015CCFE /* SGUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D6A1E24C06C0015CCFE /* SGUIButton.m */; };
+		BB2F6D6E1E24CCB50015CCFE /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6D6D1E24CCB50015CCFE /* iconfont.ttf */; };
+		BB2F6D7A1E25C0360015CCFE /* UIAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D761E25C0360015CCFE /* UIAnimationViewController.m */; };
+		BB2F6D7B1E25C0360015CCFE /* UIKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6D781E25C0360015CCFE /* UIKitViewController.m */; };
+		BB61B6181E2F3E350006CD8F /* ButtonListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61B6171E2F3E350006CD8F /* ButtonListCell.m */; };
+		BB61B61B1E2F52CA0006CD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61B61A1E2F52CA0006CD8F /* Assets.xcassets */; };
+		BB61B61F1E2F585E0006CD8F /* SGUIAlertListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61B61E1E2F585E0006CD8F /* SGUIAlertListVC.m */; };
+		BB61B62B1E3463AF0006CD8F /* UITestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61B62A1E3463AF0006CD8F /* UITestVC.m */; };
+		BB61B6321E358F9A0006CD8F /* LoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB61B6311E358F9A0006CD8F /* LoadingVC.m */; };
+		BB937A951E2713AB00C79111 /* SGUIButtonListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB937A8E1E2713AB00C79111 /* SGUIButtonListVC.m */; };
+		BB937AA81E27142500C79111 /* SGUIClearButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB937AA31E27142500C79111 /* SGUIClearButtonVC.m */; };
+		BB937AAA1E27142500C79111 /* SGUINormalButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB937AA71E27142500C79111 /* SGUINormalButtonVC.m */; };
+		BB937ABF1E277B9500C79111 /* SGUITextfiedListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB937ABE1E277B9500C79111 /* SGUITextfiedListVC.m */; };
+		BB937AC21E277C5000C79111 /* BaseListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB937AC11E277C5000C79111 /* BaseListVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2F6D341E24A9270015CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2F6D0F1E24A9270015CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2F6D161E24A9270015CCFE;
+			remoteInfo = SGUIKit;
+		};
+		BB2F6D3F1E24A9270015CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2F6D0F1E24A9270015CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2F6D161E24A9270015CCFE;
+			remoteInfo = SGUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB2F6D171E24A9270015CCFE /* SGUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2F6D1B1E24A9270015CCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB2F6D1D1E24A9270015CCFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB2F6D1E1E24A9270015CCFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB2F6D241E24A9270015CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2F6D271E24A9270015CCFE /* SGUIKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SGUIKit.xcdatamodel; sourceTree = "<group>"; };
+		BB2F6D2C1E24A9270015CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB2F6D2E1E24A9270015CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F6D331E24A9270015CCFE /* SGUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2F6D371E24A9270015CCFE /* SGUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGUIKitTests.m; sourceTree = "<group>"; };
+		BB2F6D391E24A9270015CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F6D3E1E24A9270015CCFE /* SGUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2F6D421E24A9270015CCFE /* SGUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGUIKitUITests.m; sourceTree = "<group>"; };
+		BB2F6D441E24A9270015CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F6D591E24B0B20015CCFE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BB2F6D5A1E24B0D40015CCFE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BB2F6D5B1E24B5320015CCFE /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "../Category/UIColor+Hex.h"; sourceTree = "<group>"; };
+		BB2F6D5C1E24B5320015CCFE /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../Category/UIColor+Hex.m"; sourceTree = "<group>"; };
+		BB2F6D601E24BB820015CCFE /* SGUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGUIKit.h; sourceTree = "<group>"; };
+		BB2F6D621E24BE240015CCFE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BB2F6D631E24BE240015CCFE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BB2F6D691E24C06C0015CCFE /* SGUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGUIButton.h; path = Category/SGUIButton.h; sourceTree = SOURCE_ROOT; };
+		BB2F6D6A1E24C06C0015CCFE /* SGUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGUIButton.m; path = Category/SGUIButton.m; sourceTree = SOURCE_ROOT; };
+		BB2F6D6D1E24CCB50015CCFE /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		BB2F6D751E25C0360015CCFE /* UIAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAnimationViewController.h; sourceTree = "<group>"; };
+		BB2F6D761E25C0360015CCFE /* UIAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAnimationViewController.m; sourceTree = "<group>"; };
+		BB2F6D771E25C0360015CCFE /* UIKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitViewController.h; sourceTree = "<group>"; };
+		BB2F6D781E25C0360015CCFE /* UIKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitViewController.m; sourceTree = "<group>"; };
+		BB61B6161E2F3E350006CD8F /* ButtonListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonListCell.h; sourceTree = "<group>"; };
+		BB61B6171E2F3E350006CD8F /* ButtonListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonListCell.m; sourceTree = "<group>"; };
+		BB61B61A1E2F52CA0006CD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB61B61D1E2F585E0006CD8F /* SGUIAlertListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGUIAlertListVC.h; path = SGUIAlertViews/SGUIAlertListVC.h; sourceTree = "<group>"; };
+		BB61B61E1E2F585E0006CD8F /* SGUIAlertListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGUIAlertListVC.m; path = SGUIAlertViews/SGUIAlertListVC.m; sourceTree = "<group>"; };
+		BB61B6291E3463AF0006CD8F /* UITestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITestVC.h; path = UITestVC/UITestVC.h; sourceTree = "<group>"; };
+		BB61B62A1E3463AF0006CD8F /* UITestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITestVC.m; path = UITestVC/UITestVC.m; sourceTree = "<group>"; };
+		BB61B6301E358F9A0006CD8F /* LoadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingVC.h; sourceTree = "<group>"; };
+		BB61B6311E358F9A0006CD8F /* LoadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingVC.m; sourceTree = "<group>"; };
+		BB937A8D1E2713AB00C79111 /* SGUIButtonListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGUIButtonListVC.h; path = SGUIButton/SGUIButtonListVC.h; sourceTree = "<group>"; };
+		BB937A8E1E2713AB00C79111 /* SGUIButtonListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGUIButtonListVC.m; path = SGUIButton/SGUIButtonListVC.m; sourceTree = "<group>"; };
+		BB937AA21E27142500C79111 /* SGUIClearButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGUIClearButtonVC.h; path = SGUIButton/SGUIClearButtonVC.h; sourceTree = "<group>"; };
+		BB937AA31E27142500C79111 /* SGUIClearButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGUIClearButtonVC.m; path = SGUIButton/SGUIClearButtonVC.m; sourceTree = "<group>"; };
+		BB937AA61E27142500C79111 /* SGUINormalButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGUINormalButtonVC.h; path = SGUIButton/SGUINormalButtonVC.h; sourceTree = "<group>"; };
+		BB937AA71E27142500C79111 /* SGUINormalButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGUINormalButtonVC.m; path = SGUIButton/SGUINormalButtonVC.m; sourceTree = "<group>"; };
+		BB937ABD1E277B9500C79111 /* SGUITextfiedListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGUITextfiedListVC.h; sourceTree = "<group>"; };
+		BB937ABE1E277B9500C79111 /* SGUITextfiedListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGUITextfiedListVC.m; sourceTree = "<group>"; };
+		BB937AC01E277C5000C79111 /* BaseListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListVC.h; sourceTree = "<group>"; };
+		BB937AC11E277C5000C79111 /* BaseListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2F6D141E24A9270015CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D301E24A9270015CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D3B1E24A9270015CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2F6D0E1E24A9270015CCFE = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D191E24A9270015CCFE /* SGUIKit */,
+				BB2F6D361E24A9270015CCFE /* SGUIKitTests */,
+				BB2F6D411E24A9270015CCFE /* SGUIKitUITests */,
+				BB2F6D181E24A9270015CCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2F6D181E24A9270015CCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D171E24A9270015CCFE /* SGUIKit.app */,
+				BB2F6D331E24A9270015CCFE /* SGUIKitTests.xctest */,
+				BB2F6D3E1E24A9270015CCFE /* SGUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2F6D191E24A9270015CCFE /* SGUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB937AAF1E27628200C79111 /* Views */,
+				BB2F6D721E25C0360015CCFE /* Controllers */,
+				BB2F6D5E1E24B53B0015CCFE /* Category */,
+				BB2F6D1D1E24A9270015CCFE /* AppDelegate.h */,
+				BB2F6D1E1E24A9270015CCFE /* AppDelegate.m */,
+				BB2F6D621E24BE240015CCFE /* BaseViewController.h */,
+				BB2F6D631E24BE240015CCFE /* BaseViewController.m */,
+				BB937AC01E277C5000C79111 /* BaseListVC.h */,
+				BB937AC11E277C5000C79111 /* BaseListVC.m */,
+				BB2F6D591E24B0B20015CCFE /* PrefixHeader.pch */,
+				BB2F6D5A1E24B0D40015CCFE /* Header.h */,
+				BB2F6D601E24BB820015CCFE /* SGUIKit.h */,
+				BB2F6D231E24A9270015CCFE /* Main.storyboard */,
+				BB2F6D6D1E24CCB50015CCFE /* iconfont.ttf */,
+				BB61B61A1E2F52CA0006CD8F /* Assets.xcassets */,
+				BB2F6D2B1E24A9270015CCFE /* LaunchScreen.storyboard */,
+				BB2F6D2E1E24A9270015CCFE /* Info.plist */,
+				BB2F6D261E24A9270015CCFE /* SGUIKit.xcdatamodeld */,
+				BB2F6D1A1E24A9270015CCFE /* Supporting Files */,
+			);
+			path = SGUIKit;
+			sourceTree = "<group>";
+		};
+		BB2F6D1A1E24A9270015CCFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D1B1E24A9270015CCFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB2F6D361E24A9270015CCFE /* SGUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D371E24A9270015CCFE /* SGUIKitTests.m */,
+				BB2F6D391E24A9270015CCFE /* Info.plist */,
+			);
+			path = SGUIKitTests;
+			sourceTree = "<group>";
+		};
+		BB2F6D411E24A9270015CCFE /* SGUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D421E24A9270015CCFE /* SGUIKitUITests.m */,
+				BB2F6D441E24A9270015CCFE /* Info.plist */,
+			);
+			path = SGUIKitUITests;
+			sourceTree = "<group>";
+		};
+		BB2F6D5E1E24B53B0015CCFE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6D5B1E24B5320015CCFE /* UIColor+Hex.h */,
+				BB2F6D5C1E24B5320015CCFE /* UIColor+Hex.m */,
+				BB2F6D691E24C06C0015CCFE /* SGUIButton.h */,
+				BB2F6D6A1E24C06C0015CCFE /* SGUIButton.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		BB2F6D721E25C0360015CCFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB61B61C1E2F58160006CD8F /* SGUIAlertViews */,
+				BB937A8C1E27137700C79111 /* SGUIButtons */,
+				BB937ABC1E277B4A00C79111 /* SGUITextfieds */,
+				BB2F6D771E25C0360015CCFE /* UIKitViewController.h */,
+				BB2F6D781E25C0360015CCFE /* UIKitViewController.m */,
+				BB61B6291E3463AF0006CD8F /* UITestVC.h */,
+				BB61B62A1E3463AF0006CD8F /* UITestVC.m */,
+				BB2F6D751E25C0360015CCFE /* UIAnimationViewController.h */,
+				BB2F6D761E25C0360015CCFE /* UIAnimationViewController.m */,
+				BB61B62F1E358F9A0006CD8F /* SGAnimation */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB61B61C1E2F58160006CD8F /* SGUIAlertViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB61B61D1E2F585E0006CD8F /* SGUIAlertListVC.h */,
+				BB61B61E1E2F585E0006CD8F /* SGUIAlertListVC.m */,
+			);
+			name = SGUIAlertViews;
+			sourceTree = "<group>";
+		};
+		BB61B62F1E358F9A0006CD8F /* SGAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BB61B6301E358F9A0006CD8F /* LoadingVC.h */,
+				BB61B6311E358F9A0006CD8F /* LoadingVC.m */,
+			);
+			path = SGAnimation;
+			sourceTree = "<group>";
+		};
+		BB937A8C1E27137700C79111 /* SGUIButtons */ = {
+			isa = PBXGroup;
+			children = (
+				BB937A8D1E2713AB00C79111 /* SGUIButtonListVC.h */,
+				BB937A8E1E2713AB00C79111 /* SGUIButtonListVC.m */,
+				BB937AA61E27142500C79111 /* SGUINormalButtonVC.h */,
+				BB937AA71E27142500C79111 /* SGUINormalButtonVC.m */,
+				BB937AA21E27142500C79111 /* SGUIClearButtonVC.h */,
+				BB937AA31E27142500C79111 /* SGUIClearButtonVC.m */,
+			);
+			name = SGUIButtons;
+			sourceTree = "<group>";
+		};
+		BB937AAF1E27628200C79111 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB61B6161E2F3E350006CD8F /* ButtonListCell.h */,
+				BB61B6171E2F3E350006CD8F /* ButtonListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB937ABC1E277B4A00C79111 /* SGUITextfieds */ = {
+			isa = PBXGroup;
+			children = (
+				BB937ABD1E277B9500C79111 /* SGUITextfiedListVC.h */,
+				BB937ABE1E277B9500C79111 /* SGUITextfiedListVC.m */,
+			);
+			path = SGUITextfieds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2F6D161E24A9270015CCFE /* SGUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2F6D471E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKit" */;
+			buildPhases = (
+				BB2F6D131E24A9270015CCFE /* Sources */,
+				BB2F6D141E24A9270015CCFE /* Frameworks */,
+				BB2F6D151E24A9270015CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGUIKit;
+			productName = SGUIKit;
+			productReference = BB2F6D171E24A9270015CCFE /* SGUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2F6D321E24A9270015CCFE /* SGUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2F6D4A1E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKitTests" */;
+			buildPhases = (
+				BB2F6D2F1E24A9270015CCFE /* Sources */,
+				BB2F6D301E24A9270015CCFE /* Frameworks */,
+				BB2F6D311E24A9270015CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2F6D351E24A9270015CCFE /* PBXTargetDependency */,
+			);
+			name = SGUIKitTests;
+			productName = SGUIKitTests;
+			productReference = BB2F6D331E24A9270015CCFE /* SGUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB2F6D3D1E24A9270015CCFE /* SGUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2F6D4D1E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKitUITests" */;
+			buildPhases = (
+				BB2F6D3A1E24A9270015CCFE /* Sources */,
+				BB2F6D3B1E24A9270015CCFE /* Frameworks */,
+				BB2F6D3C1E24A9270015CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2F6D401E24A9270015CCFE /* PBXTargetDependency */,
+			);
+			name = SGUIKitUITests;
+			productName = SGUIKitUITests;
+			productReference = BB2F6D3E1E24A9270015CCFE /* SGUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2F6D0F1E24A9270015CCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Wikky;
+				TargetAttributes = {
+					BB2F6D161E24A9270015CCFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2X2RB7XHH;
+						ProvisioningStyle = Automatic;
+					};
+					BB2F6D321E24A9270015CCFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2X2RB7XHH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB2F6D161E24A9270015CCFE;
+					};
+					BB2F6D3D1E24A9270015CCFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H2X2RB7XHH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB2F6D161E24A9270015CCFE;
+					};
+				};
+			};
+			buildConfigurationList = BB2F6D121E24A9270015CCFE /* Build configuration list for PBXProject "SGUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2F6D0E1E24A9270015CCFE;
+			productRefGroup = BB2F6D181E24A9270015CCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2F6D161E24A9270015CCFE /* SGUIKit */,
+				BB2F6D321E24A9270015CCFE /* SGUIKitTests */,
+				BB2F6D3D1E24A9270015CCFE /* SGUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2F6D151E24A9270015CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6D6E1E24CCB50015CCFE /* iconfont.ttf in Resources */,
+				BB2F6D2D1E24A9270015CCFE /* LaunchScreen.storyboard in Resources */,
+				BB61B61B1E2F52CA0006CD8F /* Assets.xcassets in Resources */,
+				BB2F6D251E24A9270015CCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D311E24A9270015CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D3C1E24A9270015CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2F6D131E24A9270015CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB937AA81E27142500C79111 /* SGUIClearButtonVC.m in Sources */,
+				BB61B6181E2F3E350006CD8F /* ButtonListCell.m in Sources */,
+				BB937A951E2713AB00C79111 /* SGUIButtonListVC.m in Sources */,
+				BB2F6D5D1E24B5320015CCFE /* UIColor+Hex.m in Sources */,
+				BB937ABF1E277B9500C79111 /* SGUITextfiedListVC.m in Sources */,
+				BB2F6D281E24A9270015CCFE /* SGUIKit.xcdatamodeld in Sources */,
+				BB937AAA1E27142500C79111 /* SGUINormalButtonVC.m in Sources */,
+				BB2F6D6B1E24C06C0015CCFE /* SGUIButton.m in Sources */,
+				BB2F6D1F1E24A9270015CCFE /* AppDelegate.m in Sources */,
+				BB61B61F1E2F585E0006CD8F /* SGUIAlertListVC.m in Sources */,
+				BB61B6321E358F9A0006CD8F /* LoadingVC.m in Sources */,
+				BB937AC21E277C5000C79111 /* BaseListVC.m in Sources */,
+				BB2F6D7A1E25C0360015CCFE /* UIAnimationViewController.m in Sources */,
+				BB61B62B1E3463AF0006CD8F /* UITestVC.m in Sources */,
+				BB2F6D7B1E25C0360015CCFE /* UIKitViewController.m in Sources */,
+				BB2F6D641E24BE240015CCFE /* BaseViewController.m in Sources */,
+				BB2F6D1C1E24A9270015CCFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D2F1E24A9270015CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6D381E24A9270015CCFE /* SGUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2F6D3A1E24A9270015CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6D431E24A9270015CCFE /* SGUIKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2F6D351E24A9270015CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2F6D161E24A9270015CCFE /* SGUIKit */;
+			targetProxy = BB2F6D341E24A9270015CCFE /* PBXContainerItemProxy */;
+		};
+		BB2F6D401E24A9270015CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2F6D161E24A9270015CCFE /* SGUIKit */;
+			targetProxy = BB2F6D3F1E24A9270015CCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB2F6D231E24A9270015CCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2F6D241E24A9270015CCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2F6D2B1E24A9270015CCFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2F6D2C1E24A9270015CCFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2F6D451E24A9270015CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB2F6D461E24A9270015CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2F6D481E24A9270015CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				GCC_PREFIX_HEADER = /Users/armine/Documents/git/SGUIKit/SGUIKit/PrefixHeader.pch;
+				INFOPLIST_FILE = SGUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB2F6D491E24A9270015CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				GCC_PREFIX_HEADER = /Users/armine/Documents/git/SGUIKit/SGUIKit/PrefixHeader.pch;
+				INFOPLIST_FILE = SGUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB2F6D4B1E24A9270015CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				INFOPLIST_FILE = SGUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGUIKit.app/SGUIKit";
+			};
+			name = Debug;
+		};
+		BB2F6D4C1E24A9270015CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				INFOPLIST_FILE = SGUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGUIKit.app/SGUIKit";
+			};
+			name = Release;
+		};
+		BB2F6D4E1E24A9270015CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				INFOPLIST_FILE = SGUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGUIKit;
+			};
+			name = Debug;
+		};
+		BB2F6D4F1E24A9270015CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H2X2RB7XHH;
+				INFOPLIST_FILE = SGUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wikky.SGUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2F6D121E24A9270015CCFE /* Build configuration list for PBXProject "SGUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6D451E24A9270015CCFE /* Debug */,
+				BB2F6D461E24A9270015CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2F6D471E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6D481E24A9270015CCFE /* Debug */,
+				BB2F6D491E24A9270015CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2F6D4A1E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6D4B1E24A9270015CCFE /* Debug */,
+				BB2F6D4C1E24A9270015CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2F6D4D1E24A9270015CCFE /* Build configuration list for PBXNativeTarget "SGUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6D4E1E24A9270015CCFE /* Debug */,
+				BB2F6D4F1E24A9270015CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB2F6D261E24A9270015CCFE /* SGUIKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB2F6D271E24A9270015CCFE /* SGUIKit.xcdatamodel */,
+			);
+			currentVersion = BB2F6D271E24A9270015CCFE /* SGUIKit.xcdatamodel */;
+			path = SGUIKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB2F6D0F1E24A9270015CCFE /* Project object */;
+}
