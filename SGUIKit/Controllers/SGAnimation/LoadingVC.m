@@ -7,7 +7,10 @@
 //
 
 #import "LoadingVC.h"
-// 状态栏高度(来电等情况下，状态栏高度会发生变化，所以应该实时计算)
+
+static const CGFloat kLayerSizeValue = 60;
+//static const CGFloat kPathLineWidth = 6;
+//static const CGFloat kAnimationDuration = 1.5;
 
 @interface LoadingVC ()
 @property(nonatomic, strong) CALayer *line1;
@@ -23,6 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -30,8 +35,9 @@
     UIView *animation1 = [self animationView1];
     animation1.frame = CGRectMake(self.view.center.x - 96/2, 80, 96, 30);
     [self.view addSubview:animation1];
+    [self initSubviews];
+    [self beginAnimation];
     
-
 
 }
 - (void)beginAnimation {
@@ -58,9 +64,51 @@
     groupAnimation.duration = 1.5;
     groupAnimation.repeatCount = INFINITY;
     [_shapeLayer2 addAnimation:groupAnimation forKey:nil];
+
 }
 
+- (void)initSubviews{
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, kLayerSizeValue, kLayerSizeValue)];
+    _shapeLayer1 = [CAShapeLayer layer];
+    _shapeLayer1.strokeColor = K_YELLOW_color.CGColor;
+    _shapeLayer1.fillColor = [UIColor clearColor].CGColor;
+    _shapeLayer1.lineCap = kCALineCapRound;
+    _shapeLayer1.strokeStart = 0;
+    _shapeLayer1.strokeEnd = 0.4;
+    _shapeLayer1.lineWidth = 6;
+    _shapeLayer1.path = path.CGPath;
+    [self.view.layer addSublayer:_shapeLayer1];
+    
+    _shapeLayer2 = [CAShapeLayer layer];
+    _shapeLayer2.strokeColor = K_GREEN_color.CGColor;
+    _shapeLayer2.fillColor = [UIColor clearColor].CGColor;
+    _shapeLayer2.lineCap = kCALineCapRound;
+    _shapeLayer2.strokeStart = -0.5;
+    _shapeLayer2.strokeEnd = 0;
+    _shapeLayer2.lineWidth = 6;
+    _shapeLayer2.path = path.CGPath;
+    [self.view.layer addSublayer:_shapeLayer2];
 
+    
+    
+    
+    CGFloat lineSpace = 40;
+    CGFloat minY = lineSpace;
+    
+    _shapeLayer1.frame = CGRectMake(150, 80 + minY, kLayerSizeValue, kLayerSizeValue);
+    
+    minY = CGRectGetMaxY(_shapeLayer1.frame) + lineSpace;
+    
+    
+    minY = CGRectGetMaxY(self.line1.frame) + lineSpace;
+    
+    _shapeLayer2.frame = CGRectMake(150, 180 + minY, kLayerSizeValue, kLayerSizeValue);
+    
+    minY = CGRectGetMaxY(_shapeLayer2.frame) + lineSpace;
+    
+
+}
 
 - (UIView *)animationView1 {
     

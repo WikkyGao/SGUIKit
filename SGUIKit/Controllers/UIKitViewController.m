@@ -103,8 +103,6 @@
             textfield.hidesBottomBarWhenPushed = YES;
             textfield.title = @"SGUITextfied";
             [self.navigationController pushViewController:textfield animated:YES];
-
-            
         }
             break;
         case 2:
@@ -113,15 +111,15 @@
             alert.hidesBottomBarWhenPushed = YES;
             alert.title = @"SGUIAlertView";
             [self.navigationController pushViewController:alert animated:YES];
-            
         }
+            break;
+
         case 3:
         {
             UITestVC *test = [UITestVC new];
             test.hidesBottomBarWhenPushed = YES;
             test.title = @"SGUIAlertView";
             [self.navigationController pushViewController:test animated:YES];
-            
         }
             break;
             

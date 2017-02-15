@@ -8,7 +8,41 @@
 
 #import "SGUITextField.h"
 
+
+@interface SGUITextField()<SGUITextFieldDelegate>
+{
+    
+}
+@property (nonatomic,weak)id<SGUITextFieldDelegate>originalDelegate;
+
+@end
+
 @implementation SGUITextField
+
+@dynamic delegate;
+-(instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.delegate = self;
+        
+//        self.tintColor = TextFieldTintColor;
+        self.placeholderColor = K_default_color;
+//        self.textInsets = TextFieldTextInsets;
+        self.shouldResponseToProgrammaticallyTextChanges = YES;
+        self.maximumTextLength = ULONG_MAX;
+
+    }
+    return self;
+}
+
+-(void)test{
+    
+}
+
+-(void)dealloc{
+    self.delegate = nil;
+    self.originalDelegate = nil;
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.
