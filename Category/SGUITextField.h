@@ -10,7 +10,7 @@
 
 @protocol SGUITextFieldDelegate <UITextFieldDelegate>
 
--(void)test;
+//-(void)test;
 
 @end
 
@@ -27,6 +27,16 @@
  */
 
 @property(nonatomic, assign) NSUInteger maximumTextLength;
+
+
+/**
+ *  文字在输入框内的 padding。如果出现 clearButton，则 textInsets.right 会控制 clearButton 的右边距
+ *
+ *  默认为 TextFieldTextInsets
+ */
+@property(nonatomic, assign) UIEdgeInsets textInsets;
+
+
 /**
  *  在使用 maximumTextLength 功能的时候，是否应该把文字长度按照 [NSString (QMUI) qmui_lengthWhenCountingNonASCIICharacterAsTwo] 的方法来计算。
  *  默认为 NO。
@@ -39,5 +49,6 @@
  *  默认为YES（注意系统的 UITextField 对这种行为默认是 NO）
  */
 @property(nonatomic, assign) BOOL shouldResponseToProgrammaticallyTextChanges;
+/// 获取UIEdgeInsets在垂直方向上的值
 
 @end
